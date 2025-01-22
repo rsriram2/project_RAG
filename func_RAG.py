@@ -2,6 +2,7 @@
 import os
 import tempfile
 import whisper
+import pytorch
 from yt_dlp import YoutubeDL
 from dotenv import load_dotenv
 from langchain_openai.chat_models import ChatOpenAI
