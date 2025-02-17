@@ -16,6 +16,7 @@ from langchain_community.vectorstores import DocArrayInMemorySearch
 from langchain_core.runnables import RunnableParallel, RunnablePassthrough
 from langchain_pinecone import PineconeVectorStore
 from operator import itemgetter
+import pandas as pd
 def generateRAG(url, user_question):
     #loading api keys and urls
     load_dotenv()
